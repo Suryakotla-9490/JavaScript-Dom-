@@ -1,0 +1,39 @@
+.icon{
+    border-radius: 500px;
+    height: 25px;
+    width: 25px;
+    /* text-align: right; */
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:500px
+}
+.ani{
+    height: 200px;
+    width: 200px;
+    animation-name: changing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    an
+}
+
+@keyframes changing{
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: blue;
+    }
+    50%{
+        background-color: aqua;
+    }
+    75%{
+        background-color: greenyellow;
+    }
+    100%{
+        background-color:green;
+    }
+}
